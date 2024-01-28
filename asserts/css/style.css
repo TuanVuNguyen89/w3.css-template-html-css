@@ -1,0 +1,73 @@
+/* Reset CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+    font-size: 15px;    
+}
+
+/*
+    1. Từ ngoài vào trong
+    2. Từ trên xuống dưới
+    3. Tổng quan đến chi tiết
+*/
+
+/*
+    1. Vị trí
+    2. Kích thước (width, height)
+    3. Màu sắc
+    4. Kiểu dáng (kiểu chữ, tròn, vuông...)
+*/
+
+#main {
+
+}
+
+#nav {
+    
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px 0 24px;
+    display: inline-block;
+}
+
+#nav li:hover a {
+    color: #000000;
+    background-color: #CCCCCC;
+}
+
+#nav .subnav {
+    display: none;
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+
+
+#slider {
+
+}
+
+#content {
+
+}
+
+#footer {
+
+}
