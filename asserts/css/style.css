@@ -28,8 +28,9 @@ html {
 
 }
 
+/* Begin: Nav */
 #nav {
-    
+    display: inline-block;
 }
 
 #nav li {
@@ -75,6 +76,29 @@ html {
     padding: 0px 16px;
     line-height: 38.5px;
 }
+
+#nav .nav-arrow-down {
+    font-size: 14px;
+}
+/* End: Nav*/
+
+/* Begin: Search-button */
+#header .search-btn {
+    float: right;
+    padding: 0px 24px;
+}
+
+#header .search-btn:hover {
+    cursor: pointer;
+    background-color: #F44336;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+}
+/* End: Search-button */
 
 #header {
     height: 46px;
